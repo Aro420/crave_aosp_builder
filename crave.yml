@@ -1,0 +1,17 @@
+rom:
+  name: ProjectInfinityX
+  manifest: https://github.com/ProjectInfinity-X/manifest.git
+  branch: 14
+
+device:
+  codename: marble
+  dt_link: https://github.com/ProjectBlaze-Devices/device_xiaomi_marble.git
+  dt_branch: 14
+  vt_link: https://github.com/xiaomi-sm8475-devs/vendor_xiaomi_marble.git
+  vt_branch: 14
+  kt_link: https://github.com/xiaomi-sm8475-devs/kernel_xiaomi_sm8475.git
+  kt_branch: 14
+
+build:
+  target: infinity_marble-userdebug
+  jobs: 4
